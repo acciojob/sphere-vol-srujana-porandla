@@ -1,4 +1,6 @@
-function volume_sphere() {
+function volume_sphere(event) {
+	event.preventDefault();
+	
     //Write your code here
 	var r=document.getElementById("radius").value;
 	var newr=parseInt(r);
