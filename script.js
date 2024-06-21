@@ -7,7 +7,8 @@ function volume_sphere() {
 		
 	}
 	else{
-		var v= \frac{4}{3} \pi r^3;
+		var v=(4/3) * Math.PI * Math.pow(radius, 3);
+		//var v= \frac{4}{3} \pi r^3;
 		v=v.toFixed(4);
 		document.getElementById("volume").textContent = v;
 	}
